@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFR.WebAPI", "ECFR.WebAPI\ECFR.WebAPI.csproj", "{8DD24D43-671A-4171-88F7-28E2FF8AC853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFR.Services", "ECFR.Services\ECFR.Services.csproj", "{AA4D40C5-B59D-4768-ABA5-EFD6C1F1E0AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFR.Core", "ECFR.Core\ECFR.Core.csproj", "{024B4350-3DC7-4E1E-9745-132EE75DC5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFR.Data", "ECFR.Data\ECFR.Data.csproj", "{C99D5158-72D3-4265-8187-3825C351FD3E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ECFR.Web", "ECFR.Web\", "{0DB9727B-36A4-9077-E046-05D9BBBF191D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8DD24D43-671A-4171-88F7-28E2FF8AC853} = {8DD24D43-671A-4171-88F7-28E2FF8AC853}
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60400"
+		Debug.AspNetCompiler.PhysicalPath = "..\ECFR.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60400\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60400"
+		Release.AspNetCompiler.PhysicalPath = "..\ECFR.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60400\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60400"
+		SlnRelativePath = "..\ECFR.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECFR.Repositories", "ECFR.Repository\ECFR.Repositories.csproj", "{E202894C-32B6-CD0A-3694-9F2AF4877332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD24D43-671A-4171-88F7-28E2FF8AC853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD24D43-671A-4171-88F7-28E2FF8AC853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD24D43-671A-4171-88F7-28E2FF8AC853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD24D43-671A-4171-88F7-28E2FF8AC853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4D40C5-B59D-4768-ABA5-EFD6C1F1E0AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4D40C5-B59D-4768-ABA5-EFD6C1F1E0AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4D40C5-B59D-4768-ABA5-EFD6C1F1E0AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4D40C5-B59D-4768-ABA5-EFD6C1F1E0AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024B4350-3DC7-4E1E-9745-132EE75DC5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024B4350-3DC7-4E1E-9745-132EE75DC5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024B4350-3DC7-4E1E-9745-132EE75DC5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024B4350-3DC7-4E1E-9745-132EE75DC5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99D5158-72D3-4265-8187-3825C351FD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99D5158-72D3-4265-8187-3825C351FD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99D5158-72D3-4265-8187-3825C351FD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99D5158-72D3-4265-8187-3825C351FD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB9727B-36A4-9077-E046-05D9BBBF191D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB9727B-36A4-9077-E046-05D9BBBF191D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB9727B-36A4-9077-E046-05D9BBBF191D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB9727B-36A4-9077-E046-05D9BBBF191D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E202894C-32B6-CD0A-3694-9F2AF4877332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E202894C-32B6-CD0A-3694-9F2AF4877332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E202894C-32B6-CD0A-3694-9F2AF4877332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E202894C-32B6-CD0A-3694-9F2AF4877332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFCF7533-2373-43A7-ABFC-E4BAD15944A1}
+	EndGlobalSection
+EndGlobal
